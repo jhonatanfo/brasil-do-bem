@@ -5,7 +5,21 @@
         font-size: 21.1907px;
     }
     .bg-login .logo {
-        left: -55px
+        left: -55px;
+        width: 298px;
+    }
+    /***/
+    .box-login .nav.nav-pills {
+        margin-bottom: 30px;
+    }
+    .btn-entrar {
+        margin-top: 15px;
+    }
+    .btn-esqueci-senha {
+        margin-top: 45px;
+    }
+    .box-login {
+        height: 470px;
     }
 }
 
@@ -15,6 +29,19 @@
     }
     .bg-login .logo {
         left: -55px
+    }
+    /***/
+    .box-login .nav.nav-pills {
+        margin-bottom: 30px;
+    }
+    .btn-entrar {
+        margin-top: 15px;
+    }
+    .btn-esqueci-senha {
+        margin-top: 45px;
+    }
+    .box-login {
+        height: 470px;
     }
 }
 
@@ -29,14 +56,79 @@
         left: -72px;
         width: 35%;
     }
+    /***/
+    .box-login .nav.nav-pills {
+        margin-bottom: 30px;
+    }
+    .btn-entrar {
+        margin-top: 15px;
+    }
+    .btn-esqueci-senha {
+        margin-top: 45px;
+    }
+    .box-login {
+        height: 470px;
+    }
 }
 
 @media(min-width: 0px) and (max-width: 767px) {
     body {
-        overflow: auto;
+        overflow-y: auto;
     }
     .bg-box-login {
-        background: rgb(49 41 108);
+        background: rgb(49 41 108 / 95%);
+        width: 327px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 12px;
+        padding: 0 30px;
+        padding-top: 62px;
+    }
+    .box-login .nav.nav-pills {
+        margin-bottom: 20px;
+    }
+    .btn-entrar {
+        margin-top: 0;
+        width: 142.93px;
+        height: 45.96px;
+        font-size: 18.1907px;
+    }
+    .btn-esqueci-senha {
+        margin-top: 33px;
+    }
+    .box-login {
+        padding: 55px 0;
+    }
+    .box-login {
+        height: 542px;
+    }
+    .bg-login .logo {
+        bottom: inherit;
+        width: 200px;
+        left: 50%;
+        z-index: 1;
+        top: 19px;
+        margin-left: -220px;
+    }
+    .box-login .nav-pills>li {
+        font-size: 20.1907px;
+    }
+    .box-login .nav-pills>li>a {
+        margin: 0 22px 0 0;
+    }
+    .box-login .tab-content .tab-pane form label input {
+        font-size: 16px;
+    }
+    .bg-login {
+        height: 628px;
+    }
+    .bg-login:before {
+        content: "";
+        width: 171px;
+        height: 83px;
+        background: white;
+        position: absolute;
+        top: 19px;
     }
 }
 

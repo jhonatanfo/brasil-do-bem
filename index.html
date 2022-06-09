@@ -10,6 +10,10 @@
     <link href="content/css/style.css" rel="stylesheet">
     <link href="content/css/mobile.css" rel="stylesheet">
 
+    <!-- Animações -->
+    <link rel="stylesheet" href="content/dist/aos.css" />
+    <!-- /Animações -->
+
 
 </head>
 
@@ -17,11 +21,11 @@
 
     <section class="bg-login">
 
-        <img src="content/img/logo.png" class="logo">
+        <img src="content/img/logo.png" class="logo" data-aos="fade-right" data-aos-duration="9000">
 
 
         <div class="row">
-            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-7 bg-box-login">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-7 bg-box-login " data-aos="fade-left" data-aos-duration="4000">
                 <div class="box-login">
                     <ul class="nav nav-pills">
                         <li class="active"><a data-toggle="pill" href="#login">Login</a></li>
@@ -95,6 +99,16 @@
     <script src="content/js/bootstrap.min.js"></script>
 
     <script src="content/js/padrao.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- Animações -->
+    <script src="content/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+    <!-- /Animações -->
 
 </body>
 
