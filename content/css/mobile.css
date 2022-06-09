@@ -72,17 +72,23 @@
 }
 
 @media(min-width: 0px) and (max-width: 767px) {
+    /* @media (height: 700px) {
+        .bg-box-login {
+            padding-top: 100px;
+        }
+    } */
     body {
-        overflow-y: auto;
+        width: 100%;
+        overflow: hidden;
     }
     .bg-box-login {
         background: rgb(49 41 108 / 95%);
-        width: 327px;
+        width: 290px;
         height: auto;
         margin: 0 auto;
         margin-top: 12px;
         padding: 0 30px;
-        padding-top: 62px;
+        padding-top: 0px;
     }
     .box-login .nav.nav-pills {
         margin-bottom: 20px;
@@ -98,8 +104,6 @@
     }
     .box-login {
         padding: 55px 0;
-    }
-    .box-login {
         height: 542px;
     }
     .bg-login .logo {
@@ -108,7 +112,7 @@
         left: 50%;
         z-index: 1;
         top: 19px;
-        margin-left: -220px;
+        margin-left: -200px;
     }
     .box-login .nav-pills>li {
         font-size: 20.1907px;
@@ -121,10 +125,13 @@
     }
     .bg-login {
         height: 628px;
+        min-height: 100vh;
+        display: grid;
+        align-items: center;
     }
     .bg-login:before {
         content: "";
-        width: 171px;
+        width: 24%;
         height: 83px;
         background: white;
         position: absolute;

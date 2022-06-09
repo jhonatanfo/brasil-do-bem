@@ -81,6 +81,7 @@ select:focus {
     height: 65px;
     padding: 5px 0;
     margin: 11px 0;
+    position: relative;
 }
 
 .box-login .tab-content .tab-pane form label input {
@@ -93,6 +94,7 @@ select:focus {
     border-bottom: 1px solid #A6A5A5;
     width: 100%;
     padding: 15px 0px 15px 42px;
+    transition: 0.5s;
 }
 
 .box-login .tab-content .tab-pane form label i {
@@ -101,34 +103,56 @@ select:focus {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
+    left: 0;
 }
 
 .box-login .tab-content .tab-pane form label i.icon-login-email {
     background-image: url("../img/icon-login-email.png");
 }
 
+.box-login .tab-content .tab-pane form label input:focus+i.icon-login-email {
+    background-image: url("../img/icon-login-email-hover.png");
+}
+
 .box-login .tab-content .tab-pane form label i.icon-login-senha {
     background-image: url("../img/icon-login-senha.png");
+}
+
+.box-login .tab-content .tab-pane form label input:focus+i.icon-login-senha {
+    background-image: url("../img/icon-login-senha-hover.png");
 }
 
 .box-login .tab-content .tab-pane form label i.icon-login-celular {
     background-image: url("../img/icon-login-celular.png");
 }
 
+.box-login .tab-content .tab-pane form label input:focus+i.icon-login-celular {
+    background-image: url("../img/icon-login-celular-hover.png");
+}
+
 .box-login .tab-content .tab-pane form label i.icon-login-nome {
     background-image: url("../img/icon-login-nome.png");
+}
+
+.box-login .tab-content .tab-pane form label input:focus+i.icon-login-nome {
+    background-image: url("../img/icon-login-nome-hover.png");
 }
 
 .box-login .tab-content .tab-pane form label input::placeholder {
     color: #A6A5A5;
 }
 
-.box-login .tab-content .tab-pane form label input:active+.box-login .tab-content .tab-pane form label:active input {
-    color: #fff;
-}
+
+/**hover form**/
 
 .box-login .tab-content .tab-pane form label input:focus {
     border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.box-login .tab-content .tab-pane form label input:focus::placeholder {
+    color: #FFFFFF;
 }
 
 
@@ -180,6 +204,10 @@ select:focus {
     transform: rotate(45deg);
 }
 
+.custom_checkbox input:checked+label {
+    color: white !important;
+}
+
 .custom_checkbox input:checked+label::before {
     content: '';
     background-color: transparent;
@@ -201,6 +229,13 @@ select:focus {
     margin: 0 auto;
     display: block;
     margin-top: 50px;
+    transition: 0.2s;
+}
+
+.btn-entrar:hover {
+    background: #1C6231;
+    border: none;
+    color: white;
 }
 
 .btn-esqueci-senha {
@@ -213,4 +248,11 @@ select:focus {
     margin: 0 auto;
     display: block;
     margin-top: 100px;
+    text-decoration: none !important;
+    transition: 0.2s;
+}
+
+.btn-esqueci-senha:hover {
+    opacity: 0.5;
+    color: #EBC021;
 }
