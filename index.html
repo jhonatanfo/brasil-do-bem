@@ -18,74 +18,72 @@
 
 </head>
 
-<body>
+<body class="bg-login">
 
-    <section class="bg-login">
+    <section>
 
         <img src="content/img/logo.png" class="logo" data-aos="fade-right" data-aos-duration="9000">
 
 
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-7 bg-box-login " data-aos="fade-left" data-aos-duration="4000">
-                <div class="box-login">
-                    <ul class="nav nav-pills">
-                        <li class="active"><a data-toggle="pill" href="#login">Login</a></li>
-                        <li><a data-toggle="pill" href="#cadastrar">Cadastrar</a></li>
-                    </ul>
+        <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-7 bg-box-login " data-aos="fade-left" data-aos-duration="4000">
+            <div class="box-login">
+                <ul class="nav nav-pills">
+                    <li class="active"><a data-toggle="pill" href="#login">Login</a></li>
+                    <li><a data-toggle="pill" href="#cadastrar">Cadastrar</a></li>
+                </ul>
 
-                    <div class="tab-content">
-                        <div id="login" class="tab-pane fade in active">
-                            <form>
+                <div class="tab-content">
+                    <div id="login" class="tab-pane fade in active">
+                        <form>
 
-                                <label>
+                            <label>
                                     <input placeholder="Digite seu e-mail" type="email" name="" id="">
                                     <i class="icon-login-email"></i>
                                 </label>
 
-                                <label>
+                            <label>
                                     <input placeholder="Senha" type="password" name="" id="">
                                     <i class="icon-login-senha"></i>
                                 </label>
 
 
-                                <div class="wrapper">
-                                    <div class="dflex">
-                                        <div class="custom_checkbox">
-                                            <input type="checkbox" id="post">
-                                            <label for="post">Lembrar de mim</label>
-                                        </div>
+                            <div class="wrapper">
+                                <div class="dflex">
+                                    <div class="custom_checkbox">
+                                        <input type="checkbox" id="post">
+                                        <label for="post">Lembrar de mim</label>
                                     </div>
                                 </div>
+                            </div>
 
-                                <button class="btn-entrar" type="submit">Entrar</button>
-                                <a href="" class="btn-esqueci-senha">Esqueci minha senha</a>
+                            <button class="btn-entrar" type="submit">Entrar</button>
+                            <a href="" class="btn-esqueci-senha">Esqueci minha senha</a>
 
-                            </form>
-                        </div>
-                        <div id="cadastrar" class="tab-pane fade">
-                            <form>
+                        </form>
+                    </div>
+                    <div id="cadastrar" class="tab-pane fade">
+                        <form>
 
-                                <label>
+                            <label>
                                     <input placeholder="Digite seu e-mail" type="email" name="" id="">
                                     <i class="icon-login-email"></i>
                                 </label>
 
-                                <label>
+                            <label>
                                     <input placeholder="Nome completo" type="password" name="" id="">
                                     <i class="icon-login-nome"></i>
                                 </label>
 
 
-                                <label>
+                            <label>
                                     <input placeholder="Celular" type="password" name="" id="">
                                     <i class="icon-login-celular"></i>
                                 </label>
 
-                                <button class="btn-entrar" type="submit">Entrar</button>
+                            <button class="btn-entrar" type="submit">Entrar</button>
 
 
-                            </form>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -104,7 +102,10 @@
 
     <script>
         AOS.init({
-            easing: 'ease-in-out-sine'
+            disable: function() {
+                var maxWidth = 767;
+                return window.innerWidth < maxWidth;
+            }
         });
     </script>
     <!-- /Animações -->
