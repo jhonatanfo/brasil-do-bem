@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+body.bg-login {
+    background: url("../img/bg-login.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.sem-espaco {
+    padding: 0;
+    margin: 0
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.bg-login .logo {
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+}
+
+.bg-box-login {
+    background: rgba(49, 41, 108, 0.65);
+    height: 100vh;
+    padding: 0 6%;
+    display: grid;
+    align-items: center;
+}
+
+.box-login {
+    height: 625px;
+}
+
+.box-login .nav-pills>li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.1907px;
+    line-height: 30px;
+}
+
+.box-login .nav-pills>li>a {
+    color: rgba(255, 255, 255, 0.4);
+    border-radius: 0;
+    padding: 0px 0 8px 0;
+    margin: 0 45px 0 0;
+}
+
+.box-login .nav-pills>li.active>a,
+.box-login .nav-pills>li.active>a:focus,
+.box-login .nav-pills>li.active>a:hover {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 3px solid #EBC021;
+}
+
+.box-login .nav>li>a:focus,
+.box-login .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.box-login .nav.nav-pills {
+    margin-bottom: 100px;
+}
+
+.box-login .tab-content .tab-pane form label {
+    width: 100%;
+    height: 65px;
+    padding: 5px 0;
+    margin: 11px 0;
+    position: relative;
+}
+
+.box-login .tab-content .tab-pane form label input {
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0;
+    color: #A6A5A5;
+    border-bottom: 1px solid #A6A5A5;
+    width: 100%;
+    padding: 15px 0px 15px 42px;
+    transition: 0.5s;
+}
+
+.box-login .tab-content .tab-pane form label i {
+    width: 26px;
+    height: 51px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+}
+
+.box-login .tab-content .tab-pane form label i.icon-login-email {
+    background-image: url("../img/icon-login-email.png");
+}
+
+.box-login .tab-content .tab-pane form label input:focus+i.icon-login-email {
+    background-image: url("../img/icon-login-email-hover.png");
+}
+
+.box-login .tab-content .tab-pane form label i.icon-login-senha {
+    background-image: url("../img/icon-login-senha.png");
+}
+
+.box-login .tab-content .tab-pane form label input:focus+i.icon-login-senha {
+    background-image: url("../img/icon-login-senha-hover.png");
+}
+
+.box-login .tab-content .tab-pane form label i.icon-login-celular {
+    background-image: url("../img/icon-login-celular.png");
+}
+
+.box-login .tab-content .tab-pane form label input:focus+i.icon-login-celular {
+    background-image: url("../img/icon-login-celular-hover.png");
+}
+
+.box-login .tab-content .tab-pane form label i.icon-login-nome {
+    background-image: url("../img/icon-login-nome.png");
+}
+
+.box-login .tab-content .tab-pane form label input:focus+i.icon-login-nome {
+    background-image: url("../img/icon-login-nome-hover.png");
+}
+
+.box-login .tab-content .tab-pane form label input::placeholder {
+    color: #A6A5A5;
+}
+
+
+/**hover form**/
+
+.box-login .tab-content .tab-pane form label input:focus {
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.box-login .tab-content .tab-pane form label input:focus::placeholder {
+    color: #FFFFFF;
+}
+
+
+/***/
+
+.custom_checkbox input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    display: none;
+    cursor: pointer;
+}
+
+.custom_checkbox label {
+    position: relative;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5F5F5F;
+}
+
+.custom_checkbox label:before {
+    content: '';
+    background-color: transparent;
+    border: 2px solid #5F5F5F;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.custom_checkbox input:checked+label::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 14px;
+    border: solid #EBC021;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.custom_checkbox input:checked+label {
+    color: white !important;
+}
+
+.custom_checkbox input:checked+label::before {
+    content: '';
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+.btn-entrar {
+    width: 188.93px;
+    height: 54.96px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.1907px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.4);
+    background: transparent;
+    border: 3.43509px solid rgba(255, 255, 255, 0.4);
+    border-radius: 65.2667px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    transition: 0.2s;
+}
+
+.btn-entrar:hover {
+    background: #1C6231;
+    border: none;
+    color: white;
+}
+
+.btn-esqueci-senha {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBC021;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    text-decoration: none !important;
+    transition: 0.2s;
+}
+
+.btn-esqueci-senha:hover {
+    opacity: 0.5;
+    color: #EBC021;
+}

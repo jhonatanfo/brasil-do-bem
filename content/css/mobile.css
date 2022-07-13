@@ -1,140 +1,405 @@
-@media(min-width: 1200px) and (max-width: 1600px) {}
-
 @media(min-width: 1200px) and (max-width: 1400px) {
-    .box-login .nav-pills>li {
-        font-size: 21.1907px;
-    }
-    .bg-login .logo {
-        left: -55px;
-        width: 298px;
+    .princial-banner .box-slide {
+        height: 680px;
+        padding: 99px 0;
     }
     /***/
-    .box-login .nav.nav-pills {
-        margin-bottom: 30px;
-    }
-    .btn-entrar {
-        margin-top: 15px;
-    }
-    .btn-esqueci-senha {
-        margin-top: 45px;
-    }
-    .box-login {
-        height: 470px;
-    }
 }
 
+@media(min-width: 1200px) and (max-width: 1600px) {}
+
 @media(min-width: 992px) and (max-width: 1199px) {
-    .box-login .nav-pills>li {
-        font-size: 21.1907px;
+    .topo-info-redes li i {
+        margin-right: 0px;
     }
-    .bg-login .logo {
-        left: -55px
+    .navbar-default .navbar-nav>li>a {
+        font-size: 18px;
+        padding: 34px 0;
+        margin: 0 6px;
+    }
+    .princial-banner .box-slide {
+        height: 660px;
+        padding: 99px 0;
+    }
+    .princial-banner .slick-dots {
+        margin-left: 35%;
+    }
+    .princial-banner .box-slide h2 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .princial-banner .box-slide p {
+        line-height: 27px;
+        margin-bottom: 38px;
+        margin-right: 0;
+    }
+    .princial-banner .box-slide a {
+        font-size: 17px;
     }
     /***/
-    .box-login .nav.nav-pills {
-        margin-bottom: 30px;
+    .bg-encontre-equipe .texto-encontre-equipe-left .numero {
+        font-size: 80px;
     }
-    .btn-entrar {
-        margin-top: 15px;
+    .bg-encontre-equipe .texto-encontre-equipe-left .texto {
+        font-size: 38px;
+        margin-left: 116px;
+        line-height: 29px;
+        padding: 46px 0 00;
     }
-    .btn-esqueci-senha {
-        margin-top: 45px;
+    .bg-encontre-equipe .texto-encontre-equipe-left .texto span {
+        font-size: 27px;
+        line-height: 34px;
     }
-    .box-login {
-        height: 470px;
+    .texto-encontre-equipe-right i {
+        width: 99px;
+        height: 99px;
+        background-size: 100%;
+        margin-top: 22px;
+    }
+    .texto-encontre-equipe-right p {
+        font-size: 39.07px;
+        padding-top: 33px;
+    }
+    .texto-encontre-equipe-right p b {
+        font-size: 23px;
+    }
+    .texto-encontre-equipe-right p span {
+        width: 41px;
+    }
+    /**/
+    .bg-conheca-brasil-do-bem h1 b {
+        font-size: 46px;
+    }
+    .bg-conheca-brasil-do-bem h1 {
+        margin-bottom: 55px;
+    }
+    .bg-conheca-brasil-do-bem h1::after {
+        bottom: -28px;
+    }
+    .bg-conheca-brasil-do-bem a {
+        font-size: 17px;
+    }
+    .bg-conheca-brasil-do-bem img {
+        margin: 51px 0;
+    }
+    .bg-conheca-brasil-do-bem {
+        padding: 50px 0;
+    }
+    /***/
+    .seja-membro-box {
+        height: 334px;
+    }
+    .seja-membro-box-img img {
+        margin: 0 0 0 -258px;
+        width: 486px;
+    }
+    .seja-membro-titulo h2 span {
+        font-size: 33px;
+    }
+    .seja-membro-titulo p {
+        font-size: 14px;
+    }
+    /***/
+    .texto-faixa-membro-right p {
+        font-size: 40px;
+        padding-top: 42px;
+    }
+    .texto-faixa-membro-right p b {
+        font-size: 23px;
+        margin: -13px 28px 0 0;
+        text-align: right;
+    }
+    .texto-faixa-membro-right p span {
+        width: 45px;
+        margin: 0px 0;
+    }
+    .texto-faixa-membro-right i {
+        width: 90px;
+        height: 90px;
+        background-size: cover;
+        margin: 38px 0 18px -25px;
+    }
+    /**/
+    .noticias-box h2 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .noticias-box h5 {
+        font-size: 9px;
+    }
+    .titulo-noticias .slick-ultimas-noticias h3 {
+        font-size: 55px;
+    }
+    .noticias-destaque p {
+        margin-bottom: 0;
+    }
+    /***/
+    .bg-depoimentos .depoimentos-titulo h2 {
+        font-size: 45px;
+        line-height: 44px;
+    }
+    .depoimentos-texto p::after {
+        left: 0;
+        z-index: -1;
+    }
+    .depoimentos-texto p {
+        font-size: 19px;
+    }
+    .depoimentos-texto img {
+        margin-top: -233px;
+    }
+    .depoimentos-texto h3 {
+        padding-right: 100px;
+    }
+    /***/
+    .bg-historia-carlos h1 b {
+        font-size: 50px;
+    }
+    .bg-historia-carlos img {
+        margin: 62px 0;
+    }
+    .bg-historia-carlos h1 {
+        margin-bottom: 70px;
+    }
+    .bg-historia-carlos h1::after {
+        bottom: -26px;
+    }
+    /**/
+    footer .bg-fotter-faixa ul li {
+        margin-right: 23px;
+    }
+    footer .box-rodape-um,
+    footer .box-rodape-dois,
+    footer .box-rodape-tres,
+    footer .box-rodape-quatro {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
-    .box-login .nav-pills>li {
-        font-size: 21.1907px;
+    .topo-info-redes li i {
+        margin-right: 0px;
     }
-    .box-login .nav-pills>li>a {
-        margin: 0 30px 0 0;
+    .bg-topo-info-amarelo {
+        display: none;
     }
-    .bg-login .logo {
-        left: -72px;
-        width: 35%;
+    .bg-topo-info {
+        background: #389244;
+    }
+    .bg-topo-info-amarelo {
+        width: 220px;
+    }
+    .bg-topo-info-amarelo p {
+        font-size: 15px;
+    }
+    img.logo {
+        width: 165px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        padding: 23px 0px;
+        margin: 0 2px;
     }
     /***/
-    .box-login .nav.nav-pills {
-        margin-bottom: 30px;
+    /***/
+    .princial-banner .box-slide {
+        height: 660px;
+        padding: 99px 0;
     }
-    .btn-entrar {
-        margin-top: 15px;
+    .princial-banner .slick-dots {
+        margin-left: 35%;
     }
-    .btn-esqueci-senha {
-        margin-top: 45px;
+    .princial-banner .box-slide h2 {
+        font-size: 40px;
+        line-height: 42px;
     }
-    .box-login {
-        height: 470px;
+    .princial-banner .box-slide p {
+        line-height: 27px;
+        margin-bottom: 38px;
+        margin-right: 0;
     }
-}
-
-@media(min-width: 0px) and (max-width: 767px) {
-    body {
-        width: 100%;
-        overflow: hidden;
+    .princial-banner .box-slide a {
+        font-size: 17px;
     }
-    .bg-box-login {
-        background: rgb(49 41 108 / 95%);
-        width: 290px;
-        height: auto;
-        margin: 0 auto;
-        margin-top: 12px;
-        padding: 0 30px;
-        padding-top: 0px;
-    }
-    .box-login .nav.nav-pills {
-        margin-bottom: 20px;
-    }
-    .btn-entrar {
-        margin-top: 0;
-        width: 142.93px;
-        height: 45.96px;
-        font-size: 18.1907px;
-    }
-    .btn-esqueci-senha {
-        margin-top: 33px;
-    }
-    .box-login {
-        padding: 55px 0;
-        height: 542px;
-    }
-    .bg-login .logo {
-        bottom: inherit;
-        width: 200px;
-        left: 50%;
-        z-index: 1;
-        top: 19px;
-        margin-left: -200px;
-    }
-    .box-login .nav-pills>li {
-        font-size: 20.1907px;
-    }
-    .box-login .nav-pills>li>a {
-        margin: 0 22px 0 0;
-    }
-    .box-login .tab-content .tab-pane form label input {
-        font-size: 16px;
-    }
-    .bg-login {
-        min-height: 100vh;
-        padding-top: 60px;
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        overflow: auto;
-        background-size: 100%;
-    }
-    .bg-login:before {
-        content: "";
-        width: 24%;
+    .navbar-default {
         height: 83px;
-        background: white;
-        position: absolute;
-        top: 19px;
+    }
+    /***/
+    .bg-encontre-equipe .texto-encontre-equipe-left .numero {
+        font-size: 60px;
+    }
+    .bg-encontre-equipe .texto-encontre-equipe-left .texto {
+        font-size: 30px;
+        margin-left: 87px;
+        line-height: 29px;
+        padding: 46px 0 00;
+    }
+    .bg-encontre-equipe .texto-encontre-equipe-left .texto span {
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .texto-encontre-equipe-right i {
+        width: 81px;
+        height: 81px;
+        background-size: 100%;
+        margin-top: 34px;
+        margin-left: -46px;
+    }
+    .texto-encontre-equipe-right p {
+        font-size: 30px;
+        padding-top: 44px;
+        margin-left: 57px;
+    }
+    .texto-encontre-equipe-right p b {
+        font-size: 18px;
+        margin: -6px 0 0 0;
+    }
+    .texto-encontre-equipe-right p span {
+        width: 27px;
+    }
+    /**/
+    .bg-conheca-brasil-do-bem h1 b {
+        font-size: 37px;
+    }
+    .bg-conheca-brasil-do-bem h1 {
+        margin-bottom: 55px;
+    }
+    .bg-conheca-brasil-do-bem h1::after {
+        bottom: -28px;
+    }
+    .bg-conheca-brasil-do-bem a {
+        font-size: 17px;
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    .bg-conheca-brasil-do-bem img {
+        margin: 143px 0;
+    }
+    .bg-conheca-brasil-do-bem {
+        padding: 50px 0;
+    }
+    .bg-conheca-brasil-do-bem p {
+        margin-bottom: 11px;
+    }
+    /***/
+    .seja-membro-box {
+        height: 334px;
+    }
+    .seja-membro-box-img img {
+        margin: 0 0 145px -15px;
+        width: 500px;
+    }
+    .seja-membro-titulo h2 span {
+        font-size: 24px;
+    }
+    .seja-membro-titulo p {
+        font-size: 13px;
+        padding: 0 0 31px 0;
+    }
+    .seja-membro-titulo h2 {
+        line-height: 25px;
+        margin-top: 13px;
+    }
+    .seja-membro-titulo-borda {
+        margin: -77px 13px 0 0;
+    }
+    /***/
+    .texto-faixa-membro-right p {
+        font-size: 40px;
+        padding-top: 42px;
+    }
+    .texto-faixa-membro-right p b {
+        font-size: 23px;
+        margin: -13px 28px 0 0;
+        text-align: right;
+    }
+    .texto-faixa-membro-right p span {
+        width: 45px;
+        margin: 0px 0;
+    }
+    .texto-faixa-membro-right i {
+        width: 90px;
+        height: 90px;
+        background-size: cover;
+        margin: 38px 0 28px -25px;
+    }
+    .texto-faixa-membro-right {
+        width: 468px;
+        margin: 0 auto;
+    }
+    /**/
+    .noticias-box h2 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .noticias-box h5 {
+        font-size: 9px;
+    }
+    .titulo-noticias .slick-ultimas-noticias h3 {
+        font-size: 43px;
+        line-height: 44px;
+    }
+    .noticias-destaque p {
+        margin-bottom: 0;
+    }
+    .noticias-destaque {
+        margin-bottom: 40px;
+    }
+    .noticias-box a {
+        width: 33.33%;
+        float: left;
+    }
+    .noticias-box .box-hover-efeito {
+        width: 103px;
+        height: 103px;
+    }
+    /***/
+    .bg-depoimentos .depoimentos-titulo h2 {
+        font-size: 31px;
+        line-height: 34px;
+    }
+    .depoimentos-texto p::after {
         left: 0;
+        z-index: -1;
+    }
+    .depoimentos-texto p {
+        font-size: 19px;
+    }
+    .depoimentos-texto img {
+        margin-top: -233px;
+    }
+    .depoimentos-texto h3 {
+        padding-right: 100px;
+    }
+    /***/
+    .bg-historia-carlos h1 b {
+        font-size: 31px;
+    }
+    .bg-historia-carlos img {
+        margin: 129px 0;
+    }
+    .bg-historia-carlos h1 {
+        margin-bottom: 70px;
+    }
+    .bg-historia-carlos h1::after {
+        bottom: -26px;
+    }
+    .bg-historia-carlos ul li {
+        margin-bottom: 7px;
+    }
+    /**/
+    footer .bg-fotter-faixa ul li {
+        margin-right: 9px;
+        width: 11%;
+        float: left;
+    }
+    footer .bg-fotter-faixa ul li:nth-of-type(1) {
+        width: 29%;
+    }
+    footer .bg-fotter-faixa img {
+        margin: -23px 21px 0 0px;
     }
 }
 
@@ -142,72 +407,418 @@
 
 @media(min-width: 0px) and (max-width: 540px) {}
 
-@media(min-width: 0px) and (max-width: 991px) {}
-
-@media(min-height: 0px) and (max-height: 600px) {
-    body {
+@media(min-width: 0px) and (max-width: 767px) {
+    .bg-topo-info {
+        display: none;
+    }
+    img.logo {
+        width: 173px;
+    }
+    .navbar-header {
+        float: right;
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0;
         width: 100%;
-        overflow: hidden;
+        margin-top: 25px;
     }
-    .bg-box-login {
-        background: rgb(49 41 108 / 95%);
-        width: 290px;
+    .navbar-collapse {
+        padding: 0;
+        float: initial;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        right: 0;
+        margin: 0;
+        height: calc(100vh - 105px);
+        top: 88px;
+    }
+    .container>.navbar-collapse {
+        margin-right: 0px;
+        margin-left: 0px;
+        background: white;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 11px 5px;
+        margin: 0;
+        text-align: center;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #006228;
+    }
+    .navbar-default .navbar-toggle {
+        border: 2px solid #006228;
+        border-radius: 100px;
+        height: 46px;
+        width: 46px;
+    }
+    .princial-banner .box-slide {
         height: auto;
-        margin: 0 auto;
-        margin-top: 12px;
-        padding: 0 30px;
-        padding-top: 0px;
-        display: block;
+        padding: 25px 0 95px 0;
+        min-height: 560px;
     }
-    .box-login .nav.nav-pills {
+    .princial-banner .slick-dots {
+        top: inherit;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        bottom: -50px;
+    }
+    .princial-banner .box-slide h2 {
+        font-size: 31px;
+        line-height: 33px;
+        margin-bottom: 47px;
+        text-align: center;
+    }
+    .princial-banner .box-slide p {
+        line-height: 22px;
+        margin-bottom: 38px;
+        margin-right: 0;
+        letter-spacing: 0.5px;
+    }
+    .princial-banner .box-slide a {
+        font-size: 17px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .princial-banner .slick-dots li a::after {
+        display: none;
+    }
+    .princial-banner .box-slide h2::after {
+        bottom: -15px;
+        left: 0;
+        margin: 0 auto;
+        display: block;
+        right: 0;
+    }
+    /***/
+    .bg-encontre-equipe .texto-encontre-equipe-left .numero {
+        font-size: 60px;
+    }
+    .bg-encontre-equipe .texto-encontre-equipe-left .texto {
+        font-size: 28px;
+        margin-left: 87px;
+        line-height: 29px;
+        padding: 46px 0 00;
+    }
+    .bg-encontre-equipe .texto-encontre-equipe-left .texto span {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .texto-encontre-equipe-right i {
+        width: 81px;
+        height: 81px;
+        background-size: 100%;
+        position: absolute;
+        margin: 0 auto;
+        display: block;
+        left: -37px;
+        z-index: 1;
+        margin-top: 9px;
+        opacity: 0.5;
+    }
+    .texto-encontre-equipe-right p {
+        font-size: 31.37px;
+        padding-top: 15px;
+        margin-left: 0;
+        z-index: 2;
+        position: relative;
+    }
+    .texto-encontre-equipe-right p b {
+        font-size: 18px;
+        margin: -6px 0 0 0;
+    }
+    .texto-encontre-equipe-right p span {
+        width: 27px;
+    }
+    .bg-encontre-equipe {
+        height: auto;
+        padding: 0px 0 45px 0;
+    }
+    .texto-encontre-equipe-left {
+        padding: 0;
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+        float: inherit;
+    }
+    .texto-encontre-equipe-right {
+        padding: 0;
+        width: 285px;
+        margin: 0 auto;
+        display: block;
+        float: inherit;
+    }
+    /**/
+    .bg-conheca-brasil-do-bem h1 b {
+        font-size: 31px;
+    }
+    .bg-conheca-brasil-do-bem h1 {
+        margin-bottom: 55px;
+        text-align: center;
+    }
+    .bg-conheca-brasil-do-bem h1::after {
+        bottom: -18px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .bg-conheca-brasil-do-bem a {
+        font-size: 17px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .bg-conheca-brasil-do-bem img {
+        margin: 143px 0;
+        width: 280px;
+        margin: 0 auto;
         margin-bottom: 20px;
     }
-    .btn-entrar {
-        margin-top: 0;
-        width: 142.93px;
-        height: 45.96px;
-        font-size: 18.1907px;
+    .bg-conheca-brasil-do-bem {
+        padding: 50px 0;
     }
-    .btn-esqueci-senha {
-        margin-top: 33px;
+    .bg-conheca-brasil-do-bem p {
+        margin-bottom: 11px;
     }
-    .box-login {
-        padding: 55px 0;
-        height: 542px;
+    /***/
+    .seja-membro-box {
+        height: 334px;
     }
-    .bg-login .logo {
-        bottom: inherit;
-        width: 200px;
-        left: 50%;
+    .seja-membro-box-img img {
+        width: 100%;
+        height: 405px;
+        margin: 0 auto;
+        display: block;
+        object-fit: cover;
+    }
+    .seja-membro-titulo h2 span {
+        font-size: 28px;
+    }
+    .seja-membro-titulo p {
+        font-size: 13px;
+        padding: 10px 0 31px 0;
+    }
+    .seja-membro-titulo h2 {
+        line-height: 33px;
+        margin-top: 13px;
+        text-align: center;
+    }
+    .seja-membro-titulo-borda {
+        display: none;
+    }
+    .bg-seja-membro {
+        padding: 80px 15px 0px 15px;
+    }
+    .seja-membro-box i {
+        margin: 0 auto;
+    }
+    .seja-membro-box h3 {
+        text-align: center;
+    }
+    .seja-membro-box-img {
+        padding: 0;
+    }
+    /***/
+    .texto-faixa-membro-right p {
+        font-size: 30px;
+        padding-top: 42px;
+        margin-left: 0;
         z-index: 1;
-        top: 19px;
-        margin-left: -200px;
+        position: relative;
+        text-align: center;
+        line-height: 30px;
     }
-    .box-login .nav-pills>li {
-        font-size: 20.1907px;
+    .texto-faixa-membro-right p b {
+        font-size: 21px;
+        margin: 0;
+        text-align: center;
     }
-    .box-login .nav-pills>li>a {
-        margin: 0 22px 0 0;
-    }
-    .box-login .tab-content .tab-pane form label input {
-        font-size: 16px;
-    }
-    .bg-login {
-        min-height: 100vh;
-        padding-top: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: auto;
-        background-size: 100%;
-    }
-    .bg-login:before {
-        content: "";
-        width: 25%;
-        height: 83px;
-        background: white;
-        position: absolute;
-        top: 19px;
+    .texto-faixa-membro-right p span {
+        width: 82px;
+        margin: 0 auto;
         left: 0;
+        right: 0;
+        margin-top: 43px;
+    }
+    .texto-faixa-membro-right i {
+        width: 90px;
+        height: 90px;
+        background-size: cover;
+        margin: 38px 0 28px -46px;
+        position: absolute;
+        opacity: 0.5;
+    }
+    .texto-faixa-membro-right {
+        width: 280px;
+        margin: 0 auto;
+        height: 160px;
+    }
+    .bg-faixa-membro {
+        margin-top: 0;
+    }
+    /**/
+    .noticias-box h2 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .noticias-box h5 {
+        font-size: 9px;
+    }
+    .titulo-noticias .slick-ultimas-noticias h3 {
+        font-size: 31px;
+        text-align: center;
+        line-height: 33px;
+    }
+    .noticias-destaque p {
+        margin-bottom: 0;
+    }
+    .noticias-destaque {
+        margin-bottom: 40px;
+    }
+    .noticias-box a {
+        width: 100%;
+        float: left;
+    }
+    .noticias-box .box-hover-efeito {
+        width: 103px;
+        height: 103px;
+    }
+    .bg-noticias {
+        padding: 115px 0 25px 0;
+        margin-top: 160px;
+    }
+    .titulo-noticias h2 {
+        text-align: center;
+    }
+    .titulo-noticias .slick-ultimas-noticias h3::after {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .slick-ultimas-noticias .slick-prev {
+        right: 55%;
+        top: -70px;
+    }
+    .slick-ultimas-noticias .slick-next {
+        right: 41%;
+        top: -70px;
+    }
+    .titulo-noticias a {
+        display: block;
+        width: 145px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+    /***/
+    .bg-depoimentos .depoimentos-titulo h2 {
+        font-size: 31px;
+        line-height: 34px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .depoimentos-texto p::after {
+        left: 0;
+        z-index: -1;
+        top: 0;
+    }
+    .depoimentos-texto p {
+        font-size: 19px;
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+        padding-top: 15px;
+    }
+    .depoimentos-texto img {
+        margin: 0 auto;
+        float: initial;
+        width: 179px;
+        margin-top: 20px;
+    }
+    .depoimentos-texto h3 {
+        padding-right: 0;
+        text-align: center;
+        float: inherit;
+        width: 100%;
+        margin-bottom: 38px;
+    }
+    .bg-depoimentos .depoimentos-titulo h2::after {
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        bottom: 31px;
+    }
+    .bg-depoimentos {
+        padding: 65px 0 135px 0;
+    }
+    .slick-depoimentos .slick-dots {
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+    /***/
+    .bg-historia-carlos h1 b {
+        font-size: 31px;
+    }
+    .bg-historia-carlos img {
+        width: 280px;
+        margin: 0 auto;
+    }
+    .bg-historia-carlos h1 {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .bg-historia-carlos h1::after {
+        bottom: -26px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .bg-historia-carlos ul li {
+        margin-bottom: 7px;
+    }
+    .bg-historia-carlos {
+        padding: 60px 0;
+    }
+    /***/
+    footer .box-rodape-um {
+        padding: 50px 30px 50px 30px;
+        height: 288px;
+    }
+    footer .box-rodape-dois,
+    footer .box-rodape-tres,
+    footer .box-rodape-quatro {
+        padding: 113px 30px 0 30px;
+        height: 300px;
+    }
+    footer .box-rodape-dois i.icon-mapa-site,
+    footer .box-rodape-tres i.icon-endereco-rodape,
+    footer .box-rodape-quatro i.icon-telefone-rodape {
+        margin-top: -60px;
+    }
+    footer .bg-fotter-faixa ul li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    footer .bg-fotter-faixa img {
+        float: initial;
+        margin: 0 auto;
+        display: block;
+        padding: 19px 0;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #f9c118;
+        border: 2px solid #f9c118;
+    }
+    .navbar-default .navbar-toggle:focus .icon-bar,
+    .navbar-default .navbar-toggle:hover .icon-bar {
+        background-color: white;
     }
 }
+
+@media(min-width: 0px) and (max-width: 991px) {}
