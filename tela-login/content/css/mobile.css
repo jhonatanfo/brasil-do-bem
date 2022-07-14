@@ -121,9 +121,6 @@
     .bg-login {
         min-height: 100vh;
         padding-top: 60px;
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
         overflow: auto;
         background-size: 100%;
     }

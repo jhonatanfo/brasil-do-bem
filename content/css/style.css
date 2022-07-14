@@ -515,8 +515,6 @@ body {
     background: #fafafa;
 }
 
-.seja-membro-titulo {}
-
 .seja-membro-titulo h2 {
     font-family: 'Bebas Neue', cursive;
     color: #fac100;
@@ -862,6 +860,7 @@ body {
     transition: transform .3s;
     object-fit: cover;
     width: 100%;
+    height: 130px;
 }
 
 .noticias-box a:hover .box-hover-efeito img {
@@ -1263,4 +1262,1130 @@ footer .bg-fotter-faixa ul li a:hover {
 
 footer .bg-fotter-faixa img {
     float: right;
+}
+
+
+/*********/
+
+.princial-interno {
+    width: 100%;
+    height: 345px;
+    display: block;
+    border-bottom: 20px solid #31296c;
+    padding: 102px 0;
+}
+
+.princial-interno h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    color: white;
+    line-height: 46px;
+    letter-spacing: 1px;
+}
+
+.princial-interno h1 span {
+    font-size: 40px;
+    color: #fac100;
+}
+
+.princial-interno.pagina-contato {
+    background: url("../img/bg-contato.jpg");
+}
+
+
+/***/
+
+.barra-mapa-site {
+    background: white;
+    height: 92px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 0px 0px 0px rgb(50 50 50);
+}
+
+.barra-mapa-site p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 36px 0;
+    margin-bottom: 0;
+}
+
+.barra-mapa-site p a {
+    color: #09bf72;
+}
+
+.barra-mapa-site p i {
+    background: url("../img/icon-localizacao-verde.png") no-repeat center;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: -14px 2px 0 0;
+}
+
+.barra-mapa-site ul {
+    padding: 36px 0 12px 0;
+    float: right;
+    margin-bottom: 0;
+}
+
+.barra-mapa-site ul li {
+    float: left;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.barra-mapa-site ul li:nth-of-type(1) {
+    margin-right: 15px;
+}
+
+.barra-mapa-site ul li i {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-top: -8px;
+    transition: 0.2s;
+}
+
+.barra-mapa-site ul li i.icon-facebook-verde {
+    background-image: url("../img/icon-facebook-verde.png");
+}
+
+.barra-mapa-site ul li:hover i.icon-facebook-verde {
+    background-image: url("../img/icon-facebook-verde-hover.png");
+}
+
+.barra-mapa-site ul li i.icon-linkedin-verde {
+    background-image: url("../img/icon-linkedin-verde.png");
+}
+
+.barra-mapa-site ul li:hover i.icon-linkedin-verde {
+    background-image: url("../img/icon-linkedin-verde-hover.png");
+}
+
+.barra-mapa-site ul li i.icon-twitter-verde {
+    background-image: url("../img/icon-twitter-verde.png");
+}
+
+.barra-mapa-site ul li:hover i.icon-twitter-verde {
+    background-image: url("../img/icon-twitter-verde-hover.png");
+}
+
+.barra-mapa-site ul li i.icon-whatsapp-verde {
+    background-image: url("../img/icon-whatsapp-verde.png");
+}
+
+.barra-mapa-site ul li:hover i.icon-whatsapp-verde {
+    background-image: url("../img/icon-whatsapp-verde-hover.png");
+}
+
+
+/***/
+
+.barra-encontrar-bob {
+    background: #fafafa;
+    height: 140px;
+    padding: 57px 0 0 0;
+    -webkit-box-shadow: inset 0px 0px 16px rgb(50 50 50 / 11%);
+    -moz-box-shadow: inset 0px 0px 16px rgb(50 50 50 / 11%);
+    box-shadow: inset 0px 0px 16px rgb(50 50 50 / 11%);
+}
+
+.barra-encontrar-bob span {
+    width: 38px;
+    height: 7px;
+    border-radius: 100px;
+    position: absolute;
+    background: #948dc8;
+    margin: -4px 0 0px -8px;
+}
+
+.barra-encontrar-bob h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    color: #948dc8;
+    float: right;
+    margin: -13px 0 0 0;
+    font-weight: 100;
+}
+
+.barra-encontrar-bob .bordar {
+    border-right: 1px solid #e9e9ea;
+    width: 1px;
+    height: 60px;
+    float: right;
+    position: absolute;
+    right: -25px;
+    top: -12px;
+}
+
+
+/***/
+
+.barra-encontrar-bob form {
+    margin-left: 40px;
+    margin-top: -8px;
+}
+
+.barra-encontrar-bob form label input,
+.barra-encontrar-bob form label select {
+    border: 1px solid #e0e2e6;
+    height: 45px;
+    padding: 0 5px 0 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #a09fa8;
+    font-size: 13px;
+    font-weight: 400;
+    width: 100%;
+}
+
+input,
+select,
+textarea {
+    outline: none !important;
+    color: #a09fa8
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../img/arrow-select.png") no-repeat 94% 20px #FFF;
+    background-size: 8px;
+}
+
+.barra-encontrar-bob form label:nth-of-type(1) {
+    width: 26%;
+    margin-right: 10px;
+}
+
+.barra-encontrar-bob form label:nth-of-type(2) {
+    width: 27%;
+    margin-right: 10px;
+}
+
+.barra-encontrar-bob form label:nth-of-type(3) {
+    width: 18%;
+    margin-right: 10px;
+}
+
+.barra-encontrar-bob form label:nth-of-type(4) {
+    width: 18%;
+}
+
+::-webkit-input-placeholder {
+    color: #a09fa8 !important;
+}
+
+:-ms-input-placeholder {
+    color: #a09fa8 !important;
+}
+
+::placeholder {
+    color: #a09fa8 !important;
+}
+
+.barra-encontrar-bob form button {
+    background: url("../img/icon-lupa.png") no-repeat center;
+    width: 32px;
+    height: 32px;
+    float: right;
+    border: none;
+    margin: 6px 0px 0 0;
+}
+
+
+/****/
+
+.bg-entre-contato {
+    background: white;
+    padding: 80px 0;
+}
+
+.bg-entre-contato h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 100;
+    position: relative;
+    margin-bottom: 60px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.bg-entre-contato h2 b {
+    font-family: 'Bebas Neue', cursive;
+    color: #00933b;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.bg-entre-contato h2.azul b {
+    color: #31296c;
+}
+
+.bg-entre-contato h2::after {
+    content: "";
+    width: 100px;
+    height: 7px;
+    background: #fac100;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    border-radius: 100px;
+}
+
+.bg-entre-contato form label input {
+    background: white;
+    border: 1px solid #e0e2e6;
+    height: 60px;
+    padding: 0 19px;
+    font-family: 'Open Sans', sans-serif;
+    color: #a09fa8;
+    font-size: 13px;
+    font-weight: 400;
+    width: 100%;
+    border-bottom: 2px solid #00933b;
+}
+
+.bg-entre-contato form label select {
+    border: 1px solid #e0e2e6;
+    height: 60px;
+    padding: 0 19px;
+    font-family: 'Open Sans', sans-serif;
+    color: #a09fa8;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    font-style: italic;
+    background: url(../img/arrow-select.png) no-repeat 97% 26px #FFF;
+    border-bottom: 2px solid #00933b;
+}
+
+.bg-entre-contato form label textarea {
+    background: white;
+    border: 1px solid #e0e2e6;
+    font-family: 'Open Sans', sans-serif;
+    color: #a09fa8;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    height: 190px;
+    padding: 14px 23px;
+    font-style: italic;
+    border-bottom: 2px solid #00933b;
+}
+
+.bg-entre-contato form label {
+    margin-bottom: 14px;
+}
+
+.bg-entre-contato form label input::-webkit-input-placeholder {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.bg-entre-contato form label input:-ms-input-placeholder {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.bg-entre-contato form label input::placeholder {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.bg-entre-contato form .dividir {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.bg-entre-contato form button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    color: white;
+    border: 1px solid #31296c;
+    background: #31296c;
+    padding: 8px 32px;
+    line-height: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+    letter-spacing: 1px;
+    float: right;
+}
+
+.bg-entre-contato form button:hover {
+    border: 1px solid #fac100;
+    background: #fac100;
+}
+
+.bg-entre-contato form p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fac100;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.bg-entre-contato h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #00933b;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.bg-entre-contato ul {
+    padding: 0;
+    margin-bottom: 23px;
+}
+
+.bg-entre-contato ul li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+}
+
+.bg-entre-contato ul li a {
+    color: #fac100;
+}
+
+.bg-entre-contato ul li i {
+    width: 17px;
+    height: 24px;
+    float: left;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-entre-contato ul li i.icon-endereco-contato {
+    background-image: url("../img/icon-endereco-contato.png");
+}
+
+.bg-entre-contato ul li i.icon-mensagem {
+    background-image: url("../img/icon-mensagem.png");
+}
+
+.bg-entre-contato ul li i.icon-relogio {
+    background-image: url("../img/icon-relogio.png");
+}
+
+.bg-entre-contato iframe {
+    width: 49%;
+    right: 0;
+    float: right;
+    height: 403px;
+    margin-top: -403px;
+    border-left: 5px solid #fac100 !important;
+}
+
+
+/***/
+
+.bg-entre-contato .termo p {
+    font-family: 'Open Sans', sans-serif;
+    color: #a3a4a9;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.box-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 23px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #7e7e7e;
+}
+
+.box-checkbox:hover input~.checkmark {
+    background-color: #f7f7f7;
+}
+
+.container input:checked~.checkmark {
+    background-color: #fac100;
+    border: 1px solid #fac100;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.box-checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+.box-checkbox .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/***/
+
+.bg-faq {
+    padding: 80px 0 0px 0;
+    background: white;
+}
+
+.faq-titulo h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.faq-titulo h2::after {
+    content: "";
+    width: 100px;
+    height: 7px;
+    background: #fac100;
+    position: absolute;
+    bottom: -3px;
+    left: 13px;
+    border-radius: 100px;
+}
+
+.faq-titulo h2 span {
+    font-family: 'Bebas Neue', cursive;
+    color: #31296c;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.faq-titulo p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    padding: 22px 0;
+}
+
+.faq-titulo-borda {
+    border-right: 1px solid #e9e9ea;
+    width: 1px;
+    height: 80px;
+    float: right;
+    margin: -90px 25px 0 0;
+}
+
+
+/*********/
+
+.collapsible {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    background-color: #fafafa;
+    cursor: pointer;
+    padding: 23px 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 3px;
+    padding-left: 80px;
+    padding-right: 60px;
+    position: relative;
+}
+
+.collapsible span {
+    font-family: 'Bebas Neue', cursive;
+    color: #00933b;
+    font-size: 40px;
+    font-weight: 100;
+    position: absolute;
+    margin: 18px 0 0 -64px;
+    border-right: 1px solid #e7e7e5;
+    line-height: 24px;
+    padding: 6px 13px 0 0;
+    height: 31px;
+    top: 0;
+}
+
+.collapsible.active,
+.collapsible:hover,
+.collapsible:hover:after,
+.collapsible:hover span,
+.collapsible.active span {
+    background-color: #6cbe76;
+    color: white;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: #bcbcc1;
+    font-weight: bold;
+    float: right;
+    font-size: 35px;
+    line-height: 20px;
+    position: absolute;
+    right: 18px;
+    top: 23px;
+}
+
+.collapsible.active:after {
+    content: "\2212";
+    color: white;
+}
+
+.collapsible-content {
+    padding: 0 28px 0 79px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.box-collapsible {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.collapsible-content span {
+    font-family: 'Bebas Neue', cursive;
+    color: #bdbdc2;
+    font-size: 40px;
+    font-weight: 100;
+    position: absolute;
+    margin: 23px 0 0 -48px;
+    border-right: 1px solid #e7e7e5;
+    line-height: 12px;
+    padding: 11px 14px 0 0;
+    height: 30px;
+    top: 0;
+}
+
+
+/********************************/
+
+.bg-faixa-torne-franqueado {
+    background: #fac100;
+    margin-top: 0px;
+}
+
+.texto-faixa-franqueado-right i {
+    background: url("../img/icon-mapa-03.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 126px;
+    height: 146px;
+    float: left;
+    margin-left: -70px;
+}
+
+.texto-faixa-franqueado-right p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: white;
+    margin-left: 85px;
+    padding-top: 25px;
+}
+
+.texto-faixa-franqueado-right p span {
+    width: 70px;
+    height: 7px;
+    border-radius: 100px;
+    position: absolute;
+    background: #00933b;
+    margin: 2px 0;
+}
+
+.texto-faixa-franqueado-right p b {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    color: #00933b;
+    float: right;
+    margin: -13px 0 0 0;
+    font-weight: 100;
+}
+
+.texto-faixa-franqueado-left a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 54px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 48px 0 0 0;
+    display: block;
+    float: right;
+}
+
+.texto-faixa-franqueado-left a:hover {
+    color: white;
+    border: 1px solid #00933b;
+    background: #00933b;
+}
+
+.princial-interno.pagina-faq {
+    background: url("../img/bg-faq.jpg");
+}
+
+
+/****/
+
+.princial-interno.pagina-noticias {
+    background: url("../img/bg-noticias.jpg");
+}
+
+
+/******/
+
+.bg-ultimas-noticias {
+    padding: 80px 0 0px 0;
+    background: white;
+}
+
+.ultimas-noticias-titulo h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.ultimas-noticias-titulo h2::after {
+    content: "";
+    width: 100px;
+    height: 7px;
+    background: #00924c;
+    position: absolute;
+    bottom: -3px;
+    left: 13px;
+    border-radius: 100px;
+}
+
+.ultimas-noticias-titulo h2 span {
+    font-family: 'Bebas Neue', cursive;
+    color: #fac100;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.ultimas-noticias-titulo p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    padding: 22px 0;
+}
+
+.ultimas-noticias-titulo-borda {
+    border-right: 1px solid #e9e9ea;
+    width: 1px;
+    height: 80px;
+    float: right;
+    margin: -90px 25px 0 0;
+}
+
+
+/************/
+
+.bg-noticias nav ul.pagination {
+    margin: 50px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bg-noticias nav ul.pagination li.titulo a {
+    font-family: 'Open Sans', sans-serif;
+    color: #00933b;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    border: none;
+}
+
+.bg-noticias nav ul.pagination li.titulo a:hover {
+    color: #ebbf2e;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    background: transparent;
+    color: #ebbf2e;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #a3a4a9;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 0 9px;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    color: #ebbf2e;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.pagination>li::after {
+    content: ".";
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.pagination>li.none-ponto::after {
+    display: none;
+}
+
+
+/************/
+
+.bg-detalhes-noticias {
+    padding: 80px 0;
+    background: white;
+}
+
+.detalhes-noticias-titulo h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.detalhes-noticias-titulo h2::after {
+    content: "";
+    width: 100px;
+    height: 7px;
+    background: #00924c;
+    position: absolute;
+    bottom: -3px;
+    left: 13px;
+    border-radius: 100px;
+}
+
+.detalhes-noticias-titulo h2 span {
+    font-family: 'Bebas Neue', cursive;
+    color: #fac100;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.detalhes-noticias-titulo p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    padding: 22px 0;
+}
+
+
+/*************/
+
+.detalhes-noticias-right a {
+    text-decoration: none;
+    height: 130px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.detalhes-noticias-right .box-hover-efeito {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-left: 5px solid #fac100;
+    float: left;
+    margin-right: 11px;
+}
+
+.detalhes-noticias-right .box-hover-efeito img {
+    transition: transform .3s;
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+}
+
+.detalhes-noticias-right a:hover .box-hover-efeito img {
+    transform: scale(1.2);
+}
+
+.detalhes-noticias-right h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #00933b;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    margin: 0;
+}
+
+.detalhes-noticias-right h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #a3a4a9;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 36px;
+    border-top: 1px solid #fac100;
+    float: left;
+}
+
+.detalhes-noticias-right h4 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: -12px;
+}
+
+.detalhes-noticias-right h4::after {
+    content: "";
+    width: 100px;
+    height: 7px;
+    background: #00924c;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-radius: 100px;
+}
+
+.detalhes-noticias-right h4 span {
+    font-family: 'Bebas Neue', cursive;
+    color: #fac100;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.detalhes-noticias-right a.btn {
+    font-family: 'Bebas Neue', cursive;
+    color: #00933b;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 22px;
+    border-bottom: 2px solid #fac100;
+    text-decoration: none;
+    transition: 0.2s;
+    height: auto;
+    padding: 0;
+    border-radius: 0px;
+    display: block;
+    width: 258px;
+    margin-top: 30px;
+    box-shadow: none;
+}
+
+.detalhes-noticias-right a.btn:hover {
+    color: #fac100;
+}
+
+
+/*************/
+
+.detalhes-noticias-texto img {
+    width: 100%;
+    height: 375px;
+    border-top: 12px solid #ebbf2e;
+    object-fit: cover;
+    margin-bottom: 29px;
+}
+
+.detalhes-noticias-texto h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #00933b;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 0 0 4px 0;
+}
+
+.detalhes-noticias-texto ul:nth-of-type(1) {
+    float: left;
+    width: 180px;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.detalhes-noticias-texto ul:nth-of-type(1) li {
+    font-family: 'Open Sans', sans-serif;
+    color: #a3a4a9;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 36px;
+    border-bottom: 1px solid #fac100;
+    float: left;
+    list-style: none;
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) {
+    float: right;
+    width: 169px;
+    padding: 0;
+    border-bottom: 1px solid #fac100;
+    line-height: 36px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li {
+    float: left;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #a3a4a9;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li i {
+    width: 18px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin-top: 7px;
+    transition: 0.2s;
+    margin-left: 0;
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li i.icon-facebook-verde {
+    background-image: url("../img/icon-facebook-noticias.png");
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li:hover i.icon-facebook-verde {
+    background-image: url("../img/icon-facebook-noticias-hover.png");
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li i.icon-linkedin-verde {
+    background-image: url("../img/icon-linkedin-noticias.png");
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li:hover i.icon-linkedin-verde {
+    background-image: url("../img/icon-linkedin-noticias-hover.png");
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li i.icon-twitter-verde {
+    background-image: url("../img/icon-twitter-noticias.png");
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li:hover i.icon-twitter-verde {
+    background-image: url("../img/icon-twitter-noticias-hover.png");
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li i.icon-whatsapp-verde {
+    background-image: url("../img/icon-whatsapp-noticias.png");
+}
+
+.detalhes-noticias-texto ul:nth-of-type(2) li:hover i.icon-whatsapp-verde {
+    background-image: url("../img/icon-whatsapp-noticias-hover.png");
+}
+
+.detalhes-noticias-texto p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    display: inline-block;
+    line-height: 29px;
+    text-align: justify;
+}
+
+.detalhes-noticias-texto p b {
+    color: #00924c;
+}
+
+.detalhes-noticias-texto p span {
+    color: #ebbf2e;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.detalhes-noticias-texto .btn {
+    font-family: 'Bebas Neue', cursive;
+    color: #00933b;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 22px;
+    border-bottom: 2px solid #fac100;
+    text-decoration: none;
+    transition: 0.2s;
+    height: auto;
+    padding: 0;
+    border-radius: 0px;
+    display: block;
+    width: 293px;
+    margin-top: 17px;
+    box-shadow: none;
+}
+
+.detalhes-noticias-texto a.btn:hover {
+    color: #fac100;
 }
