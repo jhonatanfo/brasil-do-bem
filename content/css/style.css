@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-html,
-body {
-    /* font-family: 'Bebas Neue', cursive; */
-    /* font-family: 'Open Sans', sans-serif; */
+html {
+    scroll-behavior: smooth;
 }
 
 .sem-espaco {
@@ -472,7 +470,7 @@ body {
     height: 7px;
     background: #fac100;
     position: absolute;
-    bottom: -40px;
+    bottom: 0;
     left: 0;
     border-radius: 100px;
 }
@@ -889,6 +887,16 @@ body {
 
 /*******/
 
+.bg-depoimentos.bg-verde-depoimentos {
+    background-color: #389244;
+    background-image: url("../img/bg-depoimento-verde.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0 165px 0;
+}
+
 .bg-depoimentos {
     background-color: #31296c;
     background-image: url("../img/bg-depoimento.jpg");
@@ -907,8 +915,16 @@ body {
     line-height: 0px;
 }
 
+.bg-depoimentos.bg-verde-depoimentos .depoimentos-titulo h2 b {
+    color: #8ede97;
+}
+
 .bg-depoimentos .depoimentos-titulo h2 span {
     color: #948dc8;
+}
+
+.bg-depoimentos.bg-verde-depoimentos .depoimentos-titulo h2 span {
+    color: #8ede97;
 }
 
 .bg-depoimentos .depoimentos-titulo h2 {
@@ -945,6 +961,10 @@ body {
     padding-right: 182px;
 }
 
+.bg-depoimentos.bg-verde-depoimentos .depoimentos-texto p::after {
+    background: url(../img/aspas-verde.png);
+}
+
 .depoimentos-texto p::after {
     content: "";
     background: url(../img/aspas.png);
@@ -973,9 +993,17 @@ body {
     font-size: 15px;
 }
 
+.bg-depoimentos.bg-verde-depoimentos .depoimentos-texto h3 span {
+    color: #8ede97;
+}
+
 .depoimentos-texto img {
     float: right;
     margin-top: -164px;
+}
+
+.bg-depoimentos.bg-verde-depoimentos .slick-depoimentos .slick-dots li button:before {
+    color: #8ede97;
 }
 
 .slick-depoimentos .slick-dots li button:before {
@@ -990,6 +1018,10 @@ body {
     border-radius: 100px;
     margin-top: -2px;
     font-size: 0px;
+}
+
+.bg-depoimentos.bg-verde-depoimentos .slick-depoimentos .slick-dots li.slick-active button:before {
+    background: #fac100;
 }
 
 .slick-depoimentos .slick-dots {
@@ -2388,4 +2420,741 @@ select {
 
 .detalhes-noticias-texto a.btn:hover {
     color: #fac100;
+}
+
+
+/****/
+
+.bg-ao-franqueados {
+    padding: 100px 0;
+}
+
+.bg-ao-franqueados img {
+    width: 95%;
+    display: block;
+}
+
+.bg-ao-franqueados h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 100;
+    position: relative;
+    line-height: 37px;
+    margin-bottom: 49px;
+    margin-top: 10px;
+}
+
+.bg-ao-franqueados h1 b {
+    font-family: 'Bebas Neue', cursive;
+    color: #00933b;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.bg-ao-franqueados h1::after {
+    content: "";
+    width: 100px;
+    height: 7px;
+    background: #fac100;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    border-radius: 100px;
+}
+
+.bg-ao-franqueados p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+
+.bg-ao-franqueados h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #00933b;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    font-style: italic;
+    margin: 0 0 7px 0;
+    line-height: 23px;
+    padding-left: 70px;
+    position: relative;
+    margin-top: 32px;
+}
+
+.bg-ao-franqueados h3::after {
+    content: "";
+    background: url(../img/aspas-amarelo.png);
+    width: 42px;
+    height: 33px;
+    position: absolute;
+    left: 39px;
+    top: -18px;
+}
+
+.bg-ao-franqueados h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ebbf2e;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: right;
+    font-style: italic;
+}
+
+
+/* ----------------- */
+
+
+/* ----------------- */
+
+
+/* ----------------- */
+
+
+/* ----------------- */
+
+
+/* ----------------- */
+
+
+/* ----------------- */
+
+
+/* ----------------- */
+
+.bg-mapa-franqueados {
+    padding: 50px 0px 130px 0px;
+    background-color: #fafafa;
+}
+
+.bg-mapa-franqueados h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #fac100;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.bg-mapa-franqueados h3 span {
+    font-family: 'Bebas Neue', cursive;
+    color: #31296c;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.bg-mapa-franqueados .map-area-transform svg {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+}
+
+.bg-mapa-franqueados .mapa-box {
+    display: none;
+}
+
+.bg-mapa-franqueados .mapa-box.ativo {
+    display: block;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.bg-mapa-franqueados .mapa-svg-estados {
+    fill: #e3e3e5;
+    -webkit-transition: .8s ease;
+    -moz-transition: .8s ease;
+    -ms-transition: .8s ease;
+    -o-transition: .8s ease;
+    transition: .8s ease;
+    stroke: transparent;
+    stroke-dasharray: 180%;
+    stroke-dashoffset: -120%;
+    stroke-width: 2px;
+}
+
+.bg-mapa-franqueados .mapa-svg-estados:hover {
+    cursor: pointer;
+    stroke: #4e9857;
+    fill: #f3f3f3;
+    stroke-dashoffset: 0%;
+}
+
+.bg-mapa-franqueados .mapa-svg-estados-active {
+    cursor: pointer;
+    stroke: #ebbf2e;
+    fill: #f3f3f3;
+    stroke-dashoffset: 0%;
+}
+
+#ancora-box {
+    scroll-margin-top: 100px;
+}
+
+.bg-mapa-franqueados .pointer-svg-map {
+    fill: #4e9857;
+    animation-direction: normal;
+    animation-delay: .2s;
+}
+
+.bg-mapa-franqueados .inactive-map-svg {
+    opacity: .5;
+    stroke: none !important;
+}
+
+.bg-mapa-franqueados .inactive-map-svg:hover {
+    stroke-dashoffset: -120%;
+    cursor: inherit;
+    fill: #e9e9eb;
+}
+
+.bg-mapa-franqueados .mapa-franqueados-chamada {
+    width: 265px;
+    position: absolute;
+    bottom: 200px;
+    margin-left: -407px;
+    left: 50%;
+}
+
+.bg-mapa-franqueados .mapa-franqueados-chamada h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #31296c;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.bg-mapa-franqueados .mapa-franqueados-chamada h2 i {
+    background: url("../img/icon-lupa-mapa.png");
+    width: 51px;
+    height: 51px;
+    float: right;
+    margin-top: -2px;
+}
+
+.bg-mapa-franqueados .mapa-franqueados-chamada p {
+    font-family: 'Bebas Neue', cursive;
+    color: #4e9857;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 28px;
+}
+
+.bg-mapa-franqueados .mapa-franqueados-chamada p span {
+    width: 45px;
+    height: 7px;
+    border-radius: 100px;
+    position: absolute;
+    background: #fac12b;
+    margin: 7px 0;
+    left: 2px;
+}
+
+.bg-mapa-franqueados h4 {
+    font-family: 'Bebas Neue', cursive;
+    color: #00924c;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-left: 26px;
+}
+
+.resul-mapa-box {
+    background: white;
+    padding: 25px 20px;
+    margin: 0px 35px 0px 12px;
+    height: 90px;
+    position: relative;
+    border: 1px solid #e9e9ea;
+    border-left: 5px solid #00924c;
+    -webkit-box-shadow: inset 0 0 3px #e7e7e7, 0 0 27px #e9e8e8;
+    -moz-box-shadow: inset 0 0 3px #e7e7e7, 0 0 27px #e9e8e8;
+    box-shadow: inset 0 0 3px #e7e7e7, 0 0 27px #e9e8e8;
+}
+
+.resul-mapa-box h5 {
+    font-family: 'Bebas Neue', cursive;
+    color: #ebbf2e;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.resul-mapa-box p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.resul-mapa-box span {
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+    color: #00924c;
+    font-size: 42px;
+    font-weight: 400;
+    position: absolute;
+    right: 47px;
+    border-left: 1px solid #e4e4e6;
+    top: 29px;
+    line-height: 35px;
+    padding: 0 0px 0 14px;
+    height: 30px;
+}
+
+.resul-mapa-box img {
+    position: absolute;
+    right: -27px;
+    top: 15px;
+    border-radius: 100px;
+    width: 59px;
+    height: 59px;
+    border: 3px solid #dfdfe1;
+}
+
+
+/* -------------- */
+
+
+/* -------------- */
+
+.bg-destaque-interesse-brasil {
+    background: #fac100;
+    padding: 22px 80px 24px 80px;
+}
+
+.texto-destaque-interesse-brasil i {
+    background: url(../img/icon-mapa-03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 126px;
+    height: 146px;
+    margin-left: -70px;
+    position: absolute;
+}
+
+.texto-destaque-interesse-brasil h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: white;
+    margin-left: 70px;
+    padding-top: 15px;
+    line-height: 35px;
+    margin-bottom: 11px;
+}
+
+.texto-destaque-interesse-brasil h3 span {
+    width: 70px;
+    height: 7px;
+    border-radius: 100px;
+    position: absolute;
+    background: #00933b;
+    margin: 2px 0;
+    top: 11px;
+    left: -81px;
+}
+
+.texto-destaque-interesse-brasil h3 b {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    color: #00933b;
+    margin: 0 0 0px 82px;
+    font-weight: 100;
+    position: relative;
+}
+
+.texto-destaque-interesse-brasil p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fafafa;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 69px;
+}
+
+.texto-destaque-interesse-brasil a {
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 300;
+    text-decoration: none;
+    background: #00933b;
+    text-align: center;
+    line-height: 30px;
+    height: 73px;
+    padding: 23px 0 23px 24px;
+    transition: 0.2s;
+}
+
+.texto-destaque-interesse-brasil a:hover {
+    background: #30246e;
+}
+
+.texto-destaque-interesse-brasil a i {
+    background: url("../img/icon-formulario.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 32px;
+    display: block;
+    left: 50%;
+    position: absolute;
+    margin-left: -122px;
+    margin-top: -4px;
+}
+
+
+/* ----------- */
+
+
+/* ----------- */
+
+.bg-nome-grupo-bdb {
+    background-color: white;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 100;
+    position: relative;
+    margin-bottom: 31px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    margin-top: 27px;
+}
+
+.bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2 span {
+    font-family: 'Bebas Neue', cursive;
+    color: #00933b;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2::after {
+    content: "";
+    width: 100px;
+    height: 7px;
+    background: #fac100;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    border-radius: 100px;
+}
+
+.bg-nome-grupo-bdb .borda {
+    border-right: 1px solid #ededee;
+    height: 90px;
+    display: block;
+    position: absolute;
+    top: 39px;
+    right: 0;
+}
+
+.bg-nome-grupo-bdb .segundo-nome-grupo-bdb p,
+.bg-nome-grupo-bdb .terceiro-nome-grupo-bdb p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 15px;
+    margin: 36px 0;
+}
+
+.bg-nome-grupo-bdb .segundo-nome-grupo-bdb p span,
+.bg-nome-grupo-bdb .terceiro-nome-grupo-bdb p span {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 73px;
+    font-weight: 100;
+    display: block;
+    text-align: center;
+    line-height: 62px;
+}
+
+.bg-nome-grupo-bdb .segundo-nome-grupo-bdb p span.azul {
+    color: #31296c;
+}
+
+.bg-nome-grupo-bdb .terceiro-nome-grupo-bdb p span.verde {
+    color: #00924c;
+}
+
+.bg-nome-grupo-bdb .quarto-nome-grupo-bdb {}
+
+.bg-nome-grupo-bdb .quarto-nome-grupo-bdb h4 {
+    font-family: 'Bebas Neue', cursive;
+    color: #fac12b;
+    font-size: 21px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.bg-nome-grupo-bdb .quarto-nome-grupo-bdb h4 span {
+    font-size: 33px;
+}
+
+.bg-nome-grupo-bdb .quarto-nome-grupo-bdb h4 span b {
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.bg-nome-grupo-bdb .quarto-nome-grupo-bdb p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 15px;
+}
+
+.bg-nome-grupo-bdb .quinto-nome-grupo-bdb {
+    margin-top: 10px;
+}
+
+.bg-nome-grupo-bdb .quinto-nome-grupo-bdb h5 {
+    font-family: 'Bebas Neue', cursive;
+    color: #4e9857;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 15px;
+}
+
+.bg-nome-grupo-bdb .quinto-nome-grupo-bdb ul {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-nome-grupo-bdb .quinto-nome-grupo-bdb ul li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 10px;
+    padding-left: 29px;
+}
+
+.bg-nome-grupo-bdb .quinto-nome-grupo-bdb ul li i {
+    width: 26px;
+    height: 16px;
+    float: left;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+    position: absolute;
+    left: 13px;
+}
+
+.bg-nome-grupo-bdb .quinto-nome-grupo-bdb ul li i.icon-reuniao-telefone {
+    background-image: url("../img/icon-reuniao-telefone.png");
+}
+
+.bg-nome-grupo-bdb .quinto-nome-grupo-bdb ul li i.icon-reuniao-email {
+    background-image: url("../img/icon-reuniao-email.png");
+}
+
+.bg-nome-grupo-bdb .quinto-nome-grupo-bdb ul li i.icon-reuniao-localizacao {
+    background-image: url("../img/icon-reuniao-localizacao.png");
+}
+
+.bg-nome-grupo-bdb {}
+
+.nome-grupo-bdb-nav {
+    height: 60px;
+    background: -webkit-linear-gradient(left, #00933b 60%, #fac100 60%);
+    background: -moz-linear-gradient(left, #00933b 60%, #fac100 60%);
+    background: -ms-linear-gradient(left, #00933b 60%, #fac100 60%);
+    background: linear-gradient(left, #00933b 60%, #fac100 60%);
+    margin-bottom: 65px;
+}
+
+.nome-grupo-bdb-nav .nav-tabs>li>a {
+    font-family: 'Bebas Neue', cursive;
+    color: #fac100;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    padding: 16px 35px;
+}
+
+.nome-grupo-bdb-nav .nav-tabs>li.active>a,
+.nome-grupo-bdb-nav .nav-tabs>li.active>a:focus,
+.nome-grupo-bdb-nav .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: none;
+    border-bottom-color: transparent;
+    font-family: 'Bebas Neue', cursive;
+    color: #00933b;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 0;
+    padding: 10px 28px;
+    border-top: 5px solid #fac100;
+}
+
+.nome-grupo-bdb-nav .nav>li>a:focus,
+.nome-grupo-bdb-nav .nav>li>a:hover {
+    background-color: transparent;
+}
+
+.nome-grupo-bdb-nav .nav-tabs {
+    border-bottom: none
+}
+
+.btn-participar-reuniao {
+    background: #fac100;
+    padding: 0;
+}
+
+.btn-participar-reuniao a {
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    display: block;
+    height: 60px;
+    padding: 13px 0 13px 33px;
+    transition: 0.2s;
+}
+
+.btn-participar-reuniao a:hover {
+    color: #00924c;
+    border-top: 3px solid #00924c;
+}
+
+.btn-participar-reuniao a i.icon-participar-reuniao {
+    background: url("../img/icon-participar-reuniao.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -207px;
+}
+
+
+/* --------- */
+
+.nome-grupo-bdb-tab .nome-grupo-bdb-tab-box {
+    background: white;
+    padding: 17px 20px;
+    height: 285px;
+    position: relative;
+    border: 1px solid #e9e9ea;
+    border-top: 5px solid #00924c;
+    -webkit-box-shadow: inset 0 0 3px #e7e7e7, 0 0 27px #e9e8e8;
+    -moz-box-shadow: inset 0 0 3px #e7e7e7, 0 0 27px #e9e8e8;
+    box-shadow: inset 0 0 3px #e7e7e7, 0 0 27px #e9e8e8;
+}
+
+.nome-grupo-bdb-tab-box .icon-zoom-mais {
+    background: url("../img/icon-zoom-mais.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.nome-grupo-bdb-tab-box img {
+    margin: 0 auto;
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 140px;
+    border: 2px solid #dfdfe1;
+    object-fit: cover;
+}
+
+.nome-grupo-bdb-tab-box h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #fac100;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.nome-grupo-bdb-tab-box h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+.nome-grupo-bdb-tab-box h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #4e9857;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.nome-grupo-bdb-tab-box ul {
+    padding: 0;
+}
+
+.nome-grupo-bdb-tab-box ul li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    height: 22px;
+    padding-left: 27px;
+}
+
+.nome-grupo-bdb-tab-box ul li i {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    margin-left: -26px;
+}
+
+.nome-grupo-bdb-tab-box ul li i.icon-telefone {
+    background-image: url("../img/icon-telefone-verde.png");
+}
+
+.nome-grupo-bdb-tab-box ul li i.icon-email {
+    background-image: url("../img/icon-email-verde.png");
+}
+
+.tab-content.nome-grupo-bdb-tab {
+    margin-bottom: 80px;
+    display: inline-block;
 }

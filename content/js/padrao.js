@@ -35,6 +35,14 @@ $(document).on('ready', function() {
     });
 
 
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true
+    });
+
 });
 
 $(document).ready(function() {
@@ -71,6 +79,17 @@ $(document).ready(function() {
     document.addEventListener("mousemove", e => {
         AOS.init();
         AOS.refresh();
+    });
+
+    $('.mapa-svg-estados').click(function() {
+        $(this).siblings().removeClass('mapa-svg-estados-active');
+        $(this).addClass('mapa-svg-estados-active');
+    })
+
+    $(".box-mapa-click").click(function() {
+        var item = $(this).attr("id");
+        $(".mapa-box").removeClass("ativo");
+        $("." + item).addClass("ativo");
     });
 
 });
