@@ -277,6 +277,22 @@
         width: 28px;
         left: -38px;
     }
+    /***/
+    /***/
+    .bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2 span {
+        font-size: 30px;
+    }
+    .bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2 {
+        line-height: 30px;
+        margin-top: 42px;
+    }
+    .bg-nome-grupo-bdb .quinto-nome-grupo-bdb h5 {
+        font-size: 16px;
+        text-align: left;
+    }
+    .nome-grupo-bdb-tab .nome-grupo-bdb-tab-box {
+        padding: 17px 10px;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
@@ -650,6 +666,55 @@
     }
     .texto-destaque-interesse-brasil p {
         padding-left: 0px;
+    }
+    /***/
+    /***/
+    .bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2 span {
+        font-size: 24px;
+    }
+    .bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2 {
+        line-height: 30px;
+        margin-top: 42px;
+    }
+    .bg-nome-grupo-bdb .quinto-nome-grupo-bdb h5 {
+        font-size: 16px;
+        text-align: left;
+    }
+    .bg-nome-grupo-bdb .quarto-nome-grupo-bdb h4 {
+        font-size: 18px;
+    }
+    .bg-nome-grupo-bdb .segundo-nome-grupo-bdb p span,
+    .bg-nome-grupo-bdb .terceiro-nome-grupo-bdb p span {
+        font-size: 60px;
+    }
+    .bg-nome-grupo-bdb .quarto-nome-grupo-bdb h4 span b {
+        font-size: 38px;
+    }
+    .bg-nome-grupo-bdb .quarto-nome-grupo-bdb p {
+        font-size: 10px;
+    }
+    /* ---- */
+    .btn-participar-reuniao a i.icon-participar-reuniao {
+        margin-left: -147px;
+        width: 26px;
+        height: 26px;
+        background-size: 100%;
+    }
+    .btn-participar-reuniao a {
+        font-size: 17px;
+        padding: 18px 0 18px 33px;
+    }
+    .nome-grupo-bdb-nav .nav-tabs>li.active>a,
+    .nome-grupo-bdb-nav .nav-tabs>li.active>a:focus,
+    .nome-grupo-bdb-nav .nav-tabs>li.active>a:hover {
+        font-size: 17px;
+        padding: 22px 28px;
+    }
+    .nome-grupo-bdb-nav .nav-tabs>li>a {
+        font-size: 16px;
+        padding: 25px 35px;
+        line-height: 11px;
+        margin-bottom: 0;
     }
 }
 
@@ -1403,6 +1468,52 @@
     }
     .texto-destaque-interesse-brasil p {
         padding-left: 0px;
+    }
+    /* ------- */
+    .bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2 {
+        text-align: center;
+    }
+    .bg-nome-grupo-bdb .primeiro-nome-grupo-bdb h2::after {
+        right: 0;
+        margin: 0 auto;
+    }
+    .bg-nome-grupo-bdb .quarto-nome-grupo-bdb h4 {
+        font-size: 16px;
+    }
+    .bg-nome-grupo-bdb .quarto-nome-grupo-bdb h4 span b {
+        font-size: 34px;
+    }
+    .bg-nome-grupo-bdb .quarto-nome-grupo-bdb p {
+        font-size: 10px;
+    }
+    /* ---- */
+    .btn-participar-reuniao a i.icon-participar-reuniao {
+        margin-left: -147px;
+        width: 26px;
+        height: 26px;
+        background-size: 100%;
+    }
+    .btn-participar-reuniao a {
+        font-size: 17px;
+        padding: 18px 0 18px 33px;
+    }
+    .nome-grupo-bdb-nav .nav-tabs>li.active>a,
+    .nome-grupo-bdb-nav .nav-tabs>li.active>a:focus,
+    .nome-grupo-bdb-nav .nav-tabs>li.active>a:hover {
+        font-size: 17px;
+        padding: 22px 13px;
+    }
+    .nome-grupo-bdb-nav .nav-tabs>li>a {
+        font-size: 16px;
+        padding: 25px 18px;
+        line-height: 11px;
+        margin-bottom: 0;
+    }
+    .nome-grupo-bdb-nav {
+        background: #00933b;
+    }
+    .nome-grupo-bdb-nav .nav-tabs {
+        width: 300px;
     }
 }
 
