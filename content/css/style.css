@@ -3158,3 +3158,60 @@ select {
     margin-bottom: 80px;
     display: inline-block;
 }
+
+
+/******/
+
+.bg-visite-grupo {
+    padding: 80px 0 0px 0;
+    background: white;
+}
+
+.visite-grupo-titulo h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8d8d8d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.visite-grupo-titulo h2::after {
+    content: "";
+    width: 100px;
+    height: 7px;
+    background: #fac100;
+    position: absolute;
+    bottom: -3px;
+    left: 13px;
+    border-radius: 100px;
+}
+
+.visite-grupo-titulo h2 span {
+    font-family: 'Bebas Neue', cursive;
+    color: #00924c;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.visite-grupo-titulo p {
+    font-family: 'Open Sans', sans-serif;
+    color: #72717e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    padding: 22px 0;
+    margin-top: -25px;
+    margin-bottom: 40px;
+}
+
+.visite-grupo-titulo-borda {
+    border-right: 1px solid #e9e9ea;
+    width: 1px;
+    height: 80px;
+    float: right;
+    margin: -90px 25px 0 0;
+}
+
+
+/************/
