@@ -3219,3 +3219,24 @@ select {
 .bg-pesquisar-grupo {
     background: #31296c;
 }
+
+.veja-lugares-proximos {
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    border: none;
+    border-bottom: 2px solid #fac12b;
+    text-decoration: none;
+    transition: 0.2s;
+    background: transparent;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.veja-lugares-proximos:hover {
+    color: #fac100;
+}
